@@ -1,0 +1,24 @@
+{
+  "name": "neutron-meta",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "test-dev": "jest --watch --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^7.0.6"
+  },
+  "devDependencies": {
+    "jest": "^15.1.1"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "__tests__/test-workspace/"
+    ]
+  }
+}
